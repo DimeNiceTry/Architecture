@@ -1,0 +1,106 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.env
+.venv
+env/
+env.bak/
+venv.bak/
+
+# Файлы баз данных
+*.sqlite3
+*.db
+*.rdb
+*.dump
+dumps/
+data/
+*.dat
+
+# Логи
+logs/
+*.log
+log/
+
+# Файлы конфигурации с паролями
+.env
+config.ini
+*.ini.secret
+*.conf.secret
+
+# Neo4j
+neo4j/data/
+.neo4j/
+
+# MongoDB
+*.mongodb
+mongodb/data/
+
+# Redis
+*.rdb
+redis/data/
+
+# ElasticSearch
+elasticsearch/data/
+
+# PostgreSQL
+*.dump
+postgres/data/
+
+# IDE & редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+.project
+.pydevproject
+.settings/
+.classpath
+.factorypath
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Cursor specific
+.cursor/
+
+# Временные файлы с данными
+*.csv
+*.xlsx
+*.json
+!/static/**/*.json 
